@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+} */
+
+html {
+    font-size: 62.5%;
+    color: white;
+    background-color: #ffe588;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    border-radius: 15px;
+    width: auto;
+}
+
+img{
+    width: 100%;
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+
+body{
+    position: static;
+    flex-flow: nowrap;
+    width: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    z-index: 0;
+}
+
+menu{
+    width: 100%;
+    min-width: 4.7rem;
+    z-index: 1;
+}
+
+menu .marco-index{
+    position: relative;
+    background: #626b62;
+    top: 1rem;
+    padding: 5rem;
+    width: 100%;
+    min-width: 32rem;
+    z-index: 1;
+}
+
+menu .texto-marco-index{
+    position: relative;
+    text-align: left;
+    
+}
+
+menu .imagen-index{
+    display: flex;
+    top: 0;
+    left: 400rem;
+    z-index: 2;
+    width: 90%;
+}
+
+.marco-about{
+    position: relative;
+    background-color: #626b62;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: blue;
+    padding: 10;
+    left: 0%;
+    width: auto;
+    z-index: 1;
+}
+
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+li{
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+
+.opciones {
+    color:white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.formulario{
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: rgb(51, 25, 71);
+    color: white;
+    border-radius: 0.4rem;
+    padding: 1.2rem 2rem;
+    margin-top: 0rem;
+    width: 100%;
+    resize: none;
+}
+
+textarea {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border: 0.2rem solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+footer{
+    position: relative;
+    color: white;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
